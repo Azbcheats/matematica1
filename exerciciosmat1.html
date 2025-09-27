@@ -108,22 +108,23 @@ document.addEventListener('DOMContentLoaded', () => {
       let a = 1, b = i + 3, c = i + 2;
       enunciado = `Calcule Δ da equação: ${a}x² + (${b})x + (${c}) = 0`;
       let delta = b*b - 4*a*c;
-      respostaCorreta = `Δ = ${delta}`;
+      respostaCorreta = `${delta}`;
     } else if (i % 4 === 3) {
       let a = 2, b = -(2*i), c = i*i;
       enunciado = `Encontre o vértice da função: ${a}x² + (${b})x + (${c})`;
       let xv = -b / (2*a);
       let yv = a*xv*xv + b*xv + c;
-      respostaCorreta = `Vértice: (${xv}, ${yv})`;
+      respostaCorreta = `(${xv.toFixed(2)}, ${yv.toFixed(2)})`;
     } else {
       let a = (i % 5) + 1;
       enunciado = `Determine a concavidade da função: ${a}x² + 2x + 1`;
-      respostaCorreta = a > 0 ? "Concavidade para cima" : "Concavidade para baixo";
+      respostaCorreta = a > 0 ? "Para cima" : "Para baixo";
     }
 
     const opcoes = new Set([respostaCorreta]);
     while (opcoes.size < 4) {
-      opcoes.add("Opção falsa " + Math.floor(Math.random()*100));
+      let numeroFalso = (Math.random() * 100).toFixed(2);
+      opcoes.add(numeroFalso);
     }
 
     exercicios.push({ q: enunciado, correta: respostaCorreta, opcoes: [...opcoes] });
