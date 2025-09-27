@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Exercícios - Função Quadrática</title>
+<link rel="stylesheet" href="style.css" />
+<style>
+  main { padding: 30px; max-width: 1000px; margin: auto; }
+  h1 { color: #ff4d4d; text-align: center; margin-bottom: 20px; }
+
+  .placar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f8f8f8;
+  }
+  .acertos { color: #4dff4d; }
+  .erros { color: #ff4d4d; }
+
+  .exercicio {
+    background-color: #111;
+    border: 1px solid #ff4d4d;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px 0;
+    color: #f8f8f8;
+  }
+  .enunciado { font-size: 16px; margin-bottom: 10px; }
+  .opcoes { display: flex; flex-direction: column; gap: 6px; }
+  .opcao {
+    background-color: #222;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.12s, background-color 0.3s;
+  }
+  .opcao:hover { transform: scale(1.02); }
+  .correto { background-color: #1a4d1a !important; border-color: #4dff4d !important; color: #b3ffb3; }
+  .errado { background-color: #4d1a1a !important; border-color: #ff4d4d !important; color: #ffb3b3; }
+
+  .nav-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .nav-buttons button {
+    padding: 8px 14px;
+    border: none;
+    background: linear-gradient(145deg, #ff4444, #cc0000);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  .nav-buttons button:hover {
+    background: linear-gradient(145deg, #ff6666, #ff0000);
+    transform: translateY(-2px);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Exercícios de Função Quadrática (Quiz)</h1>
+
+  <!-- Botões no topo -->
+  <div class="nav-buttons">
+    <button onclick="location.href='index.html'">Introdução</button>
+    <button onclick="location.href='mat1.html'">Mat 1</button>
+  </div>
+
+  <div class="placar">
+    <div class="acertos">✔️ Acertos: <span id="contador-acertos">0</span></div>
+    <div class="erros">❌ Erros: <span id="contador-erros">0</span></div>
+  </div>
+
+  <div id="ex-list"></div>
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('ex-list');
+  const contadorAcertos = document.getElementById('contador-acertos');
+  const contadorErros = document.getElementById('contador-erros');
+
+  let acertos = 0;
+  let erros = 0;
+  const exercicios = [];
+
+  for (let i = 1; i <= 30; i++) {
+    let enunciado = "";
+    let respostaCorreta = "";
+
+    if (i % 4 === 1) {
+      let x1 = i + 1;
+      let x2 = i + 2;
+      let a = 1;
+      let b = -(x1 + x2);
+      let c = x1 * x2;
+      enunciado = `Resolva a equação: ${a}x² + (${b})x + (${c}) = 0`;
+      respostaCorreta = `x₁ = ${x1}, x₂ = ${x2}`;
+    } else if (i % 4 === 2) {
+      let a = 1, b = i + 3, c = i + 2;
+      enunciado = `Calcule Δ da equação: ${a}x² + (${b})x + (${c}) = 0`;
+      let delta = b*b - 4*a*c;
+      respostaCorreta = `Δ = ${delta}`;
+    } else if (i % 4 === 3) {
+      let a = 2, b = -(2*i), c = i*i;
+      enunciado = `Encontre o vértice da função: ${a}x² + (${b})x + (${c})`;
+      let xv = -b / (2*a);
+      let yv = a*xv*xv + b*xv + c;
+      respostaCorreta = `Vértice: (${xv}, ${yv})`;
+    } else {
+      let a = (i % 5) + 1;
+      enunciado = `Determine a concavidade da função: ${a}x² + 2x + 1`;
+      respostaCorreta = a > 0 ? "Concavidade para cima" : "Concavidade para baixo";
+    }
+
+    const opcoes = new Set([respostaCorreta]);
+    while (opcoes.size < 4) {
+      opcoes.add("Opção falsa " + Math.floor(Math.random()*100));
+    }
+
+    exercicios.push({ q: enunciado, correta: respostaCorreta, opcoes: [...opcoes] });
+  }
+
+  exercicios.forEach((ex, i) => {
+    const div = document.createElement('div');
+    div.className = 'exercicio';
+
+    const enc = document.createElement('div');
+    enc.className = 'enunciado';
+    enc.innerHTML = `<strong>Exercício ${i+1}:</strong> ${ex.q}`;
+
+    const opcoesDiv = document.createElement('div');
+    opcoesDiv.className = 'opcoes';
+
+    ex.opcoes.sort(() => Math.random() - 0.5).forEach(op => {
+      const opcao = document.createElement('div');
+      opcao.className = 'opcao';
+      opcao.textContent = op;
+
+      opcao.onclick = () => {
+        if (opcao.classList.contains("correto") || opcao.classList.contains("errado")) return;
+        if (op === ex.correta) {
+          opcao.classList.add('correto');
+          acertos++;
+          contadorAcertos.textContent = acertos;
+        } else {
+          opcao.classList.add('errado');
+          erros++;
+          contadorErros.textContent = erros;
+        }
+      };
+
+      opcoesDiv.appendChild(opcao);
+    });
+
+    div.appendChild(enc);
+    div.appendChild(opcoesDiv);
+    container.appendChild(div);
+  });
+});
+</script>
+</body>
+</html>

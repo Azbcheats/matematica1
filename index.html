@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Introdução</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h1>Introdução</h1>
+        <p>
+            Esse site foi criado com base na praticidade e na facilidade de estudo, reunindo toda a matéria em um só lugar, sem a necessidade de se desgastar lendo informações desnecessárias na apostila ou no caderno. Além disso, o site conta com exercícios gerados automaticamente. Este site não deve ser compartilhado com ninguém e deve permanecer apenas sob posse do conselho. Caso seja compartilhado, será imediatamente desligado. Bons estudos a todos!
+        </p>
+
+        <!-- Imagem central pequena -->
+        <div style="text-align:center;">
+            <img src="cachorro.jpeg" alt="Imagem de um cachorro" class="img-central">
+
+        </div>
+
+        <!-- Botões -->
+        <div class="nav-buttons">
+            <button onclick="location.href='mat1.html'">Matemática 1</button>
+         
+            <button onclick="location.href='exerciciosmat1.html'">Exercícios Mat 1</button>
+     
+        </div>
+
+        <!-- Barra de Progresso -->
+        <div class="box">
+            <h2>Progresso de Estudo</h2>
+            <div class="progress-bar-container">
+                <div id="progresso" class="progress-bar"></div>
+            </div>
+            <p id="texto-progresso">Progresso: 0%</p>
+        </div>
+
+        <!-- Pontuação -->
+        <div class="box">
+            <h2>Pontuação Gamificada</h2>
+            <p>Pontos: <span id="pontuacao">0</span></p>
+        </div>
+
+        <!-- Área de Anotações -->
+        <div class="box">
+            <h2>Área de Anotações</h2>
+            <textarea id="notas" placeholder="Escreva aqui suas anotações..."></textarea>
+            <button class="btn" onclick="salvarNotas()">Salvar Notas</button>
+        </div>
+
+        <!-- Chat de Dúvidas -->
+        <div class="box">
+            <h2>Chat de Dúvidas</h2>
+            <div id="chat-box" class="chat-box"></div>
+            <input type="text" id="mensagem" placeholder="Digite sua dúvida...">
+            <button class="btn" onclick="enviarMensagem()">Enviar</button>
+        </div>
+
+        <!-- Exportar PDF -->
+        <div class="box">
+            <button class="btn" onclick="exportarPDF()">Exportar Estudo para PDF</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

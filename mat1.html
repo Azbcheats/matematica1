@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matemática - Parte 1</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Matemática - Parte 1</h1>
+
+<!-- BOTÕES NO TOPO -->
+<div class="nav-buttons">
+  <button onclick="location.href='index.html'">Introdução</button>
+  <button onclick="location.href='exerciciosmat1.html'">Exercícios Mat 1</button>
+</div>
+
+<h2>📘 Fórmulas Importantes</h2>
+
+<div class="box">
+  <h3>Definição de Função Quadrática</h3>
+  <button class="btn" onclick="toggleFormula(this, 'f(x) = ax² + bx + c')">Mostrar Fórmula</button>
+  <p class="resposta"></p>
+</div>
+
+<div class="box">
+  <h3>Concavidade da Parábola</h3>
+  <button class="btn" onclick="toggleFormula(this, 'Se a > 0 → concavidade para cima\nSe a < 0 → concavidade para baixo')">Mostrar Fórmula</button>
+  <p class="resposta"></p>
+</div>
+
+<div class="box">
+  <h3>Fórmula de Bhaskara</h3>
+  <button class="btn" onclick="toggleFormula(this, 'x = [-b ± √(b² - 4ac)] / 2a')">Mostrar Fórmula</button>
+  <p class="resposta"></p>
+</div>
+
+<div class="box">
+  <h3>Coordenadas do Vértice</h3>
+  <button class="btn" onclick="toggleFormula(this, 'V(x_v, y_v) → x_v = -b/2a\ny_v = -Δ/4a')">Mostrar Fórmula</button>
+  <p class="resposta"></p>
+</div>
+
+<div class="box">
+  <h3>Delta</h3>
+  <button class="btn" onclick="toggleFormula(this, 'Δ = b² - 4ac')">Mostrar Fórmula</button>
+  <p class="resposta"></p>
+</div>
+
+<h2>🖊️ Calculadora Gráfica</h2>
+<div class="box">
+  <label for="funcInput">Função: </label><br>
+  <input type="text" id="funcInput" placeholder="Ex: x*x + 2*x + 1">
+  <button class="btn" onclick="plotQuadratic()">Plotar Função</button>
+  <canvas id="functionChart" width="600" height="400"></canvas>
+</div>
+
+<div class="box" id="infoBox"></div>
+
+<div class="box">
+  <h3>Quiz Rápido</h3>
+  <p id="quizPergunta">Quem é a lenda pedagógica?</p>
+  <input type="text" id="quizResposta" placeholder="Digite sua resposta">
+  <button class="btn" onclick="verificarQuiz()">Verificar</button>
+  <p id="quizFeedback"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

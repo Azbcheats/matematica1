@@ -1,0 +1,2046 @@
+{
+  "exerciciosMat1": [
+    {
+      "enunciado": "Resolva a equação: 1x² + (-5)x + (6) = 0",
+      "respostaCorreta": "x₁ = 2, x₂ = 3",
+      "opcoes": [
+        "x₁ = 2, x₂ = 3",
+        "Opção falsa 4",
+        "Opção falsa 2",
+        "Opção falsa 3"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (5)x + (4) = 0",
+      "respostaCorreta": "Δ = 9",
+      "opcoes": [
+        "Opção falsa 4",
+        "Δ = 9",
+        "Opção falsa 5",
+        "Opção falsa 3"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-6)x + (9)",
+      "respostaCorreta": "Vértice: (1.5, 4.5)",
+      "opcoes": [
+        "Opção falsa 4",
+        "Opção falsa 6",
+        "Opção falsa 5",
+        "Vértice: (1.5, 4.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 6",
+        "Opção falsa 7",
+        "Opção falsa 5"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-13)x + (42) = 0",
+      "respostaCorreta": "x₁ = 6, x₂ = 7",
+      "opcoes": [
+        "Opção falsa 6",
+        "x₁ = 6, x₂ = 7",
+        "Opção falsa 8",
+        "Opção falsa 7"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (9)x + (8) = 0",
+      "respostaCorreta": "Δ = 49",
+      "opcoes": [
+        "Opção falsa 8",
+        "Opção falsa 7",
+        "Δ = 49",
+        "Opção falsa 9"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-14)x + (49)",
+      "respostaCorreta": "Vértice: (3.5, 24.5)",
+      "opcoes": [
+        "Vértice: (3.5, 24.5)",
+        "Opção falsa 8",
+        "Opção falsa 9",
+        "Opção falsa 10"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 11",
+        "Opção falsa 9",
+        "Opção falsa 10"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-21)x + (110) = 0",
+      "respostaCorreta": "x₁ = 10, x₂ = 11",
+      "opcoes": [
+        "x₁ = 10, x₂ = 11",
+        "Opção falsa 11",
+        "Opção falsa 12",
+        "Opção falsa 10"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (13)x + (12) = 0",
+      "respostaCorreta": "Δ = 121",
+      "opcoes": [
+        "Δ = 121",
+        "Opção falsa 13",
+        "Opção falsa 11",
+        "Opção falsa 12"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-22)x + (121)",
+      "respostaCorreta": "Vértice: (5.5, 60.5)",
+      "opcoes": [
+        "Vértice: (5.5, 60.5)",
+        "Opção falsa 14",
+        "Opção falsa 13",
+        "Opção falsa 12"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 14",
+        "Opção falsa 13",
+        "Opção falsa 15"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-29)x + (210) = 0",
+      "respostaCorreta": "x₁ = 14, x₂ = 15",
+      "opcoes": [
+        "Opção falsa 16",
+        "Opção falsa 14",
+        "x₁ = 14, x₂ = 15",
+        "Opção falsa 15"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (17)x + (16) = 0",
+      "respostaCorreta": "Δ = 225",
+      "opcoes": [
+        "Opção falsa 16",
+        "Opção falsa 17",
+        "Opção falsa 15",
+        "Δ = 225"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-30)x + (225)",
+      "respostaCorreta": "Vértice: (7.5, 112.5)",
+      "opcoes": [
+        "Opção falsa 16",
+        "Opção falsa 17",
+        "Vértice: (7.5, 112.5)",
+        "Opção falsa 18"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 17",
+        "Opção falsa 18",
+        "Opção falsa 19"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-37)x + (342) = 0",
+      "respostaCorreta": "x₁ = 18, x₂ = 19",
+      "opcoes": [
+        "x₁ = 18, x₂ = 19",
+        "Opção falsa 20",
+        "Opção falsa 18",
+        "Opção falsa 19"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (21)x + (20) = 0",
+      "respostaCorreta": "Δ = 361",
+      "opcoes": [
+        "Opção falsa 20",
+        "Opção falsa 21",
+        "Δ = 361",
+        "Opção falsa 19"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-38)x + (361)",
+      "respostaCorreta": "Vértice: (9.5, 180.5)",
+      "opcoes": [
+        "Opção falsa 22",
+        "Opção falsa 20",
+        "Vértice: (9.5, 180.5)",
+        "Opção falsa 21"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 22",
+        "Opção falsa 23",
+        "Opção falsa 21"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-45)x + (506) = 0",
+      "respostaCorreta": "x₁ = 22, x₂ = 23",
+      "opcoes": [
+        "Opção falsa 23",
+        "x₁ = 22, x₂ = 23",
+        "Opção falsa 24",
+        "Opção falsa 22"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (25)x + (24) = 0",
+      "respostaCorreta": "Δ = 529",
+      "opcoes": [
+        "Opção falsa 25",
+        "Δ = 529",
+        "Opção falsa 24",
+        "Opção falsa 23"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-46)x + (529)",
+      "respostaCorreta": "Vértice: (11.5, 264.5)",
+      "opcoes": [
+        "Vértice: (11.5, 264.5)",
+        "Opção falsa 25",
+        "Opção falsa 24",
+        "Opção falsa 26"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 25",
+        "Opção falsa 26",
+        "Opção falsa 27"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-53)x + (702) = 0",
+      "respostaCorreta": "x₁ = 26, x₂ = 27",
+      "opcoes": [
+        "x₁ = 26, x₂ = 27",
+        "Opção falsa 28",
+        "Opção falsa 26",
+        "Opção falsa 27"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (29)x + (28) = 0",
+      "respostaCorreta": "Δ = 729",
+      "opcoes": [
+        "Opção falsa 29",
+        "Δ = 729",
+        "Opção falsa 28",
+        "Opção falsa 27"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-54)x + (729)",
+      "respostaCorreta": "Vértice: (13.5, 364.5)",
+      "opcoes": [
+        "Vértice: (13.5, 364.5)",
+        "Opção falsa 30",
+        "Opção falsa 28",
+        "Opção falsa 29"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 31",
+        "Opção falsa 30",
+        "Opção falsa 29"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-61)x + (930) = 0",
+      "respostaCorreta": "x₁ = 30, x₂ = 31",
+      "opcoes": [
+        "Opção falsa 30",
+        "x₁ = 30, x₂ = 31",
+        "Opção falsa 32",
+        "Opção falsa 31"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (33)x + (32) = 0",
+      "respostaCorreta": "Δ = 961",
+      "opcoes": [
+        "Δ = 961",
+        "Opção falsa 32",
+        "Opção falsa 31",
+        "Opção falsa 33"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-62)x + (961)",
+      "respostaCorreta": "Vértice: (15.5, 480.5)",
+      "opcoes": [
+        "Opção falsa 32",
+        "Opção falsa 33",
+        "Vértice: (15.5, 480.5)",
+        "Opção falsa 34"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 35",
+        "Opção falsa 33",
+        "Opção falsa 34"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-69)x + (1190) = 0",
+      "respostaCorreta": "x₁ = 34, x₂ = 35",
+      "opcoes": [
+        "Opção falsa 36",
+        "x₁ = 34, x₂ = 35",
+        "Opção falsa 35",
+        "Opção falsa 34"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (37)x + (36) = 0",
+      "respostaCorreta": "Δ = 1225",
+      "opcoes": [
+        "Δ = 1225",
+        "Opção falsa 36",
+        "Opção falsa 35",
+        "Opção falsa 37"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-70)x + (1225)",
+      "respostaCorreta": "Vértice: (17.5, 612.5)",
+      "opcoes": [
+        "Opção falsa 38",
+        "Opção falsa 37",
+        "Opção falsa 36",
+        "Vértice: (17.5, 612.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 38",
+        "Opção falsa 39",
+        "Opção falsa 37"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-77)x + (1482) = 0",
+      "respostaCorreta": "x₁ = 38, x₂ = 39",
+      "opcoes": [
+        "Opção falsa 38",
+        "Opção falsa 39",
+        "Opção falsa 40",
+        "x₁ = 38, x₂ = 39"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (41)x + (40) = 0",
+      "respostaCorreta": "Δ = 1521",
+      "opcoes": [
+        "Opção falsa 41",
+        "Opção falsa 39",
+        "Opção falsa 40",
+        "Δ = 1521"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-78)x + (1521)",
+      "respostaCorreta": "Vértice: (19.5, 760.5)",
+      "opcoes": [
+        "Opção falsa 41",
+        "Vértice: (19.5, 760.5)",
+        "Opção falsa 40",
+        "Opção falsa 42"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 41",
+        "Opção falsa 43",
+        "Opção falsa 42"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-85)x + (1806) = 0",
+      "respostaCorreta": "x₁ = 42, x₂ = 43",
+      "opcoes": [
+        "Opção falsa 44",
+        "Opção falsa 43",
+        "Opção falsa 42",
+        "x₁ = 42, x₂ = 43"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (45)x + (44) = 0",
+      "respostaCorreta": "Δ = 1849",
+      "opcoes": [
+        "Opção falsa 44",
+        "Δ = 1849",
+        "Opção falsa 43",
+        "Opção falsa 45"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-86)x + (1849)",
+      "respostaCorreta": "Vértice: (21.5, 924.5)",
+      "opcoes": [
+        "Vértice: (21.5, 924.5)",
+        "Opção falsa 44",
+        "Opção falsa 46",
+        "Opção falsa 45"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 46",
+        "Opção falsa 47",
+        "Opção falsa 45"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-93)x + (2162) = 0",
+      "respostaCorreta": "x₁ = 46, x₂ = 47",
+      "opcoes": [
+        "Opção falsa 47",
+        "Opção falsa 46",
+        "x₁ = 46, x₂ = 47",
+        "Opção falsa 48"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (49)x + (48) = 0",
+      "respostaCorreta": "Δ = 2209",
+      "opcoes": [
+        "Δ = 2209",
+        "Opção falsa 49",
+        "Opção falsa 47",
+        "Opção falsa 48"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-94)x + (2209)",
+      "respostaCorreta": "Vértice: (23.5, 1104.5)",
+      "opcoes": [
+        "Opção falsa 50",
+        "Vértice: (23.5, 1104.5)",
+        "Opção falsa 49",
+        "Opção falsa 48"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 51",
+        "Opção falsa 50",
+        "Opção falsa 49"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-101)x + (2550) = 0",
+      "respostaCorreta": "x₁ = 50, x₂ = 51",
+      "opcoes": [
+        "Opção falsa 50",
+        "Opção falsa 51",
+        "x₁ = 50, x₂ = 51",
+        "Opção falsa 52"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (53)x + (52) = 0",
+      "respostaCorreta": "Δ = 2601",
+      "opcoes": [
+        "Δ = 2601",
+        "Opção falsa 51",
+        "Opção falsa 52",
+        "Opção falsa 53"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-102)x + (2601)",
+      "respostaCorreta": "Vértice: (25.5, 1300.5)",
+      "opcoes": [
+        "Opção falsa 53",
+        "Opção falsa 54",
+        "Vértice: (25.5, 1300.5)",
+        "Opção falsa 52"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 55",
+        "Opção falsa 54",
+        "Opção falsa 53"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-109)x + (2970) = 0",
+      "respostaCorreta": "x₁ = 54, x₂ = 55",
+      "opcoes": [
+        "x₁ = 54, x₂ = 55",
+        "Opção falsa 55",
+        "Opção falsa 54",
+        "Opção falsa 56"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (57)x + (56) = 0",
+      "respostaCorreta": "Δ = 3025",
+      "opcoes": [
+        "Opção falsa 56",
+        "Opção falsa 55",
+        "Δ = 3025",
+        "Opção falsa 57"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-110)x + (3025)",
+      "respostaCorreta": "Vértice: (27.5, 1512.5)",
+      "opcoes": [
+        "Opção falsa 56",
+        "Vértice: (27.5, 1512.5)",
+        "Opção falsa 57",
+        "Opção falsa 58"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 59",
+        "Opção falsa 57",
+        "Opção falsa 58"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-117)x + (3422) = 0",
+      "respostaCorreta": "x₁ = 58, x₂ = 59",
+      "opcoes": [
+        "Opção falsa 58",
+        "Opção falsa 60",
+        "Opção falsa 59",
+        "x₁ = 58, x₂ = 59"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (61)x + (60) = 0",
+      "respostaCorreta": "Δ = 3481",
+      "opcoes": [
+        "Opção falsa 61",
+        "Δ = 3481",
+        "Opção falsa 60",
+        "Opção falsa 59"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-118)x + (3481)",
+      "respostaCorreta": "Vértice: (29.5, 1740.5)",
+      "opcoes": [
+        "Opção falsa 62",
+        "Vértice: (29.5, 1740.5)",
+        "Opção falsa 61",
+        "Opção falsa 60"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 61",
+        "Opção falsa 62",
+        "Opção falsa 63"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-125)x + (3906) = 0",
+      "respostaCorreta": "x₁ = 62, x₂ = 63",
+      "opcoes": [
+        "Opção falsa 62",
+        "x₁ = 62, x₂ = 63",
+        "Opção falsa 64",
+        "Opção falsa 63"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (65)x + (64) = 0",
+      "respostaCorreta": "Δ = 3969",
+      "opcoes": [
+        "Δ = 3969",
+        "Opção falsa 64",
+        "Opção falsa 65",
+        "Opção falsa 63"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-126)x + (3969)",
+      "respostaCorreta": "Vértice: (31.5, 1984.5)",
+      "opcoes": [
+        "Opção falsa 66",
+        "Opção falsa 64",
+        "Opção falsa 65",
+        "Vértice: (31.5, 1984.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 66",
+        "Opção falsa 67",
+        "Opção falsa 65"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-133)x + (4422) = 0",
+      "respostaCorreta": "x₁ = 66, x₂ = 67",
+      "opcoes": [
+        "x₁ = 66, x₂ = 67",
+        "Opção falsa 66",
+        "Opção falsa 67",
+        "Opção falsa 68"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (69)x + (68) = 0",
+      "respostaCorreta": "Δ = 4489",
+      "opcoes": [
+        "Opção falsa 69",
+        "Opção falsa 68",
+        "Opção falsa 67",
+        "Δ = 4489"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-134)x + (4489)",
+      "respostaCorreta": "Vértice: (33.5, 2244.5)",
+      "opcoes": [
+        "Opção falsa 69",
+        "Opção falsa 70",
+        "Opção falsa 68",
+        "Vértice: (33.5, 2244.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 69",
+        "Opção falsa 70",
+        "Opção falsa 71"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-141)x + (4970) = 0",
+      "respostaCorreta": "x₁ = 70, x₂ = 71",
+      "opcoes": [
+        "Opção falsa 70",
+        "Opção falsa 72",
+        "Opção falsa 71",
+        "x₁ = 70, x₂ = 71"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (73)x + (72) = 0",
+      "respostaCorreta": "Δ = 5041",
+      "opcoes": [
+        "Opção falsa 72",
+        "Δ = 5041",
+        "Opção falsa 71",
+        "Opção falsa 73"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-142)x + (5041)",
+      "respostaCorreta": "Vértice: (35.5, 2520.5)",
+      "opcoes": [
+        "Opção falsa 72",
+        "Opção falsa 73",
+        "Opção falsa 74",
+        "Vértice: (35.5, 2520.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 73",
+        "Opção falsa 74",
+        "Opção falsa 75"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-149)x + (5550) = 0",
+      "respostaCorreta": "x₁ = 74, x₂ = 75",
+      "opcoes": [
+        "x₁ = 74, x₂ = 75",
+        "Opção falsa 76",
+        "Opção falsa 74",
+        "Opção falsa 75"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (77)x + (76) = 0",
+      "respostaCorreta": "Δ = 5625",
+      "opcoes": [
+        "Δ = 5625",
+        "Opção falsa 77",
+        "Opção falsa 76",
+        "Opção falsa 75"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-150)x + (5625)",
+      "respostaCorreta": "Vértice: (37.5, 2812.5)",
+      "opcoes": [
+        "Opção falsa 78",
+        "Opção falsa 77",
+        "Opção falsa 76",
+        "Vértice: (37.5, 2812.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 78",
+        "Opção falsa 77",
+        "Opção falsa 79"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-157)x + (6162) = 0",
+      "respostaCorreta": "x₁ = 78, x₂ = 79",
+      "opcoes": [
+        "Opção falsa 78",
+        "x₁ = 78, x₂ = 79",
+        "Opção falsa 79",
+        "Opção falsa 80"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (81)x + (80) = 0",
+      "respostaCorreta": "Δ = 6241",
+      "opcoes": [
+        "Opção falsa 81",
+        "Opção falsa 80",
+        "Δ = 6241",
+        "Opção falsa 79"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-158)x + (6241)",
+      "respostaCorreta": "Vértice: (39.5, 3120.5)",
+      "opcoes": [
+        "Opção falsa 81",
+        "Opção falsa 80",
+        "Opção falsa 82",
+        "Vértice: (39.5, 3120.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 83",
+        "Opção falsa 82",
+        "Opção falsa 81"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-165)x + (6806) = 0",
+      "respostaCorreta": "x₁ = 82, x₂ = 83",
+      "opcoes": [
+        "Opção falsa 84",
+        "Opção falsa 83",
+        "x₁ = 82, x₂ = 83",
+        "Opção falsa 82"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (85)x + (84) = 0",
+      "respostaCorreta": "Δ = 6889",
+      "opcoes": [
+        "Opção falsa 84",
+        "Opção falsa 85",
+        "Δ = 6889",
+        "Opção falsa 83"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-166)x + (6889)",
+      "respostaCorreta": "Vértice: (41.5, 3444.5)",
+      "opcoes": [
+        "Opção falsa 86",
+        "Opção falsa 84",
+        "Opção falsa 85",
+        "Vértice: (41.5, 3444.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 86",
+        "Opção falsa 87",
+        "Opção falsa 85"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-173)x + (7482) = 0",
+      "respostaCorreta": "x₁ = 86, x₂ = 87",
+      "opcoes": [
+        "Opção falsa 87",
+        "x₁ = 86, x₂ = 87",
+        "Opção falsa 86",
+        "Opção falsa 88"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (89)x + (88) = 0",
+      "respostaCorreta": "Δ = 7569",
+      "opcoes": [
+        "Opção falsa 89",
+        "Δ = 7569",
+        "Opção falsa 87",
+        "Opção falsa 88"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-174)x + (7569)",
+      "respostaCorreta": "Vértice: (43.5, 3784.5)",
+      "opcoes": [
+        "Opção falsa 90",
+        "Opção falsa 89",
+        "Vértice: (43.5, 3784.5)",
+        "Opção falsa 88"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 89",
+        "Opção falsa 91",
+        "Opção falsa 90"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-181)x + (8190) = 0",
+      "respostaCorreta": "x₁ = 90, x₂ = 91",
+      "opcoes": [
+        "Opção falsa 91",
+        "Opção falsa 92",
+        "x₁ = 90, x₂ = 91",
+        "Opção falsa 90"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (93)x + (92) = 0",
+      "respostaCorreta": "Δ = 8281",
+      "opcoes": [
+        "Opção falsa 93",
+        "Opção falsa 92",
+        "Δ = 8281",
+        "Opção falsa 91"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-182)x + (8281)",
+      "respostaCorreta": "Vértice: (45.5, 4140.5)",
+      "opcoes": [
+        "Vértice: (45.5, 4140.5)",
+        "Opção falsa 94",
+        "Opção falsa 93",
+        "Opção falsa 92"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 94",
+        "Opção falsa 93",
+        "Opção falsa 95"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-189)x + (8930) = 0",
+      "respostaCorreta": "x₁ = 94, x₂ = 95",
+      "opcoes": [
+        "Opção falsa 96",
+        "Opção falsa 94",
+        "Opção falsa 95",
+        "x₁ = 94, x₂ = 95"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (97)x + (96) = 0",
+      "respostaCorreta": "Δ = 9025",
+      "opcoes": [
+        "Opção falsa 97",
+        "Opção falsa 96",
+        "Δ = 9025",
+        "Opção falsa 95"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-190)x + (9025)",
+      "respostaCorreta": "Vértice: (47.5, 4512.5)",
+      "opcoes": [
+        "Opção falsa 97",
+        "Opção falsa 98",
+        "Opção falsa 96",
+        "Vértice: (47.5, 4512.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 98",
+        "Opção falsa 97",
+        "Opção falsa 99"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-197)x + (9702) = 0",
+      "respostaCorreta": "x₁ = 98, x₂ = 99",
+      "opcoes": [
+        "Opção falsa 98",
+        "Opção falsa 100",
+        "Opção falsa 99",
+        "x₁ = 98, x₂ = 99"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (101)x + (100) = 0",
+      "respostaCorreta": "Δ = 9801",
+      "opcoes": [
+        "Δ = 9801",
+        "Opção falsa 100",
+        "Opção falsa 99",
+        "Opção falsa 101"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-198)x + (9801)",
+      "respostaCorreta": "Vértice: (49.5, 4900.5)",
+      "opcoes": [
+        "Opção falsa 100",
+        "Vértice: (49.5, 4900.5)",
+        "Opção falsa 101",
+        "Opção falsa 102"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 103",
+        "Opção falsa 101",
+        "Opção falsa 102"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-205)x + (10506) = 0",
+      "respostaCorreta": "x₁ = 102, x₂ = 103",
+      "opcoes": [
+        "x₁ = 102, x₂ = 103",
+        "Opção falsa 103",
+        "Opção falsa 104",
+        "Opção falsa 102"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (105)x + (104) = 0",
+      "respostaCorreta": "Δ = 10609",
+      "opcoes": [
+        "Δ = 10609",
+        "Opção falsa 103",
+        "Opção falsa 105",
+        "Opção falsa 104"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-206)x + (10609)",
+      "respostaCorreta": "Vértice: (51.5, 5304.5)",
+      "opcoes": [
+        "Vértice: (51.5, 5304.5)",
+        "Opção falsa 105",
+        "Opção falsa 104",
+        "Opção falsa 106"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 107",
+        "Opção falsa 105",
+        "Opção falsa 106"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-213)x + (11342) = 0",
+      "respostaCorreta": "x₁ = 106, x₂ = 107",
+      "opcoes": [
+        "Opção falsa 107",
+        "Opção falsa 108",
+        "x₁ = 106, x₂ = 107",
+        "Opção falsa 106"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (109)x + (108) = 0",
+      "respostaCorreta": "Δ = 11449",
+      "opcoes": [
+        "Opção falsa 107",
+        "Opção falsa 108",
+        "Opção falsa 109",
+        "Δ = 11449"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-214)x + (11449)",
+      "respostaCorreta": "Vértice: (53.5, 5724.5)",
+      "opcoes": [
+        "Opção falsa 108",
+        "Vértice: (53.5, 5724.5)",
+        "Opção falsa 109",
+        "Opção falsa 110"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 111",
+        "Opção falsa 109",
+        "Opção falsa 110"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-221)x + (12210) = 0",
+      "respostaCorreta": "x₁ = 110, x₂ = 111",
+      "opcoes": [
+        "Opção falsa 111",
+        "x₁ = 110, x₂ = 111",
+        "Opção falsa 112",
+        "Opção falsa 110"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (113)x + (112) = 0",
+      "respostaCorreta": "Δ = 12321",
+      "opcoes": [
+        "Δ = 12321",
+        "Opção falsa 113",
+        "Opção falsa 112",
+        "Opção falsa 111"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-222)x + (12321)",
+      "respostaCorreta": "Vértice: (55.5, 6160.5)",
+      "opcoes": [
+        "Vértice: (55.5, 6160.5)",
+        "Opção falsa 113",
+        "Opção falsa 112",
+        "Opção falsa 114"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 113",
+        "Opção falsa 114",
+        "Opção falsa 115"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-229)x + (13110) = 0",
+      "respostaCorreta": "x₁ = 114, x₂ = 115",
+      "opcoes": [
+        "Opção falsa 116",
+        "x₁ = 114, x₂ = 115",
+        "Opção falsa 114",
+        "Opção falsa 115"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (117)x + (116) = 0",
+      "respostaCorreta": "Δ = 13225",
+      "opcoes": [
+        "Opção falsa 117",
+        "Opção falsa 116",
+        "Opção falsa 115",
+        "Δ = 13225"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-230)x + (13225)",
+      "respostaCorreta": "Vértice: (57.5, 6612.5)",
+      "opcoes": [
+        "Opção falsa 118",
+        "Vértice: (57.5, 6612.5)",
+        "Opção falsa 116",
+        "Opção falsa 117"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 119",
+        "Opção falsa 118",
+        "Opção falsa 117"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-237)x + (14042) = 0",
+      "respostaCorreta": "x₁ = 118, x₂ = 119",
+      "opcoes": [
+        "Opção falsa 120",
+        "x₁ = 118, x₂ = 119",
+        "Opção falsa 119",
+        "Opção falsa 118"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (121)x + (120) = 0",
+      "respostaCorreta": "Δ = 14161",
+      "opcoes": [
+        "Opção falsa 120",
+        "Δ = 14161",
+        "Opção falsa 119",
+        "Opção falsa 121"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-238)x + (14161)",
+      "respostaCorreta": "Vértice: (59.5, 7080.5)",
+      "opcoes": [
+        "Opção falsa 120",
+        "Vértice: (59.5, 7080.5)",
+        "Opção falsa 121",
+        "Opção falsa 122"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 123",
+        "Opção falsa 122",
+        "Opção falsa 121"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-245)x + (15006) = 0",
+      "respostaCorreta": "x₁ = 122, x₂ = 123",
+      "opcoes": [
+        "Opção falsa 122",
+        "Opção falsa 123",
+        "Opção falsa 124",
+        "x₁ = 122, x₂ = 123"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (125)x + (124) = 0",
+      "respostaCorreta": "Δ = 15129",
+      "opcoes": [
+        "Δ = 15129",
+        "Opção falsa 123",
+        "Opção falsa 124",
+        "Opção falsa 125"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-246)x + (15129)",
+      "respostaCorreta": "Vértice: (61.5, 7564.5)",
+      "opcoes": [
+        "Opção falsa 124",
+        "Opção falsa 125",
+        "Vértice: (61.5, 7564.5)",
+        "Opção falsa 126"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 125",
+        "Opção falsa 126",
+        "Opção falsa 127"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-253)x + (16002) = 0",
+      "respostaCorreta": "x₁ = 126, x₂ = 127",
+      "opcoes": [
+        "x₁ = 126, x₂ = 127",
+        "Opção falsa 126",
+        "Opção falsa 128",
+        "Opção falsa 127"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (129)x + (128) = 0",
+      "respostaCorreta": "Δ = 16129",
+      "opcoes": [
+        "Opção falsa 129",
+        "Δ = 16129",
+        "Opção falsa 128",
+        "Opção falsa 127"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-254)x + (16129)",
+      "respostaCorreta": "Vértice: (63.5, 8064.5)",
+      "opcoes": [
+        "Opção falsa 130",
+        "Opção falsa 129",
+        "Opção falsa 128",
+        "Vértice: (63.5, 8064.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 130",
+        "Opção falsa 131",
+        "Opção falsa 129"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-261)x + (17030) = 0",
+      "respostaCorreta": "x₁ = 130, x₂ = 131",
+      "opcoes": [
+        "Opção falsa 130",
+        "Opção falsa 132",
+        "Opção falsa 131",
+        "x₁ = 130, x₂ = 131"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (133)x + (132) = 0",
+      "respostaCorreta": "Δ = 17161",
+      "opcoes": [
+        "Opção falsa 132",
+        "Opção falsa 131",
+        "Opção falsa 133",
+        "Δ = 17161"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-262)x + (17161)",
+      "respostaCorreta": "Vértice: (65.5, 8580.5)",
+      "opcoes": [
+        "Opção falsa 133",
+        "Opção falsa 132",
+        "Vértice: (65.5, 8580.5)",
+        "Opção falsa 134"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 133",
+        "Opção falsa 135",
+        "Opção falsa 134"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-269)x + (18090) = 0",
+      "respostaCorreta": "x₁ = 134, x₂ = 135",
+      "opcoes": [
+        "Opção falsa 136",
+        "Opção falsa 135",
+        "x₁ = 134, x₂ = 135",
+        "Opção falsa 134"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (137)x + (136) = 0",
+      "respostaCorreta": "Δ = 18225",
+      "opcoes": [
+        "Δ = 18225",
+        "Opção falsa 136",
+        "Opção falsa 135",
+        "Opção falsa 137"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-270)x + (18225)",
+      "respostaCorreta": "Vértice: (67.5, 9112.5)",
+      "opcoes": [
+        "Opção falsa 136",
+        "Opção falsa 138",
+        "Vértice: (67.5, 9112.5)",
+        "Opção falsa 137"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 139",
+        "Opção falsa 138",
+        "Opção falsa 137"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-277)x + (19182) = 0",
+      "respostaCorreta": "x₁ = 138, x₂ = 139",
+      "opcoes": [
+        "x₁ = 138, x₂ = 139",
+        "Opção falsa 139",
+        "Opção falsa 138",
+        "Opção falsa 140"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (141)x + (140) = 0",
+      "respostaCorreta": "Δ = 19321",
+      "opcoes": [
+        "Δ = 19321",
+        "Opção falsa 139",
+        "Opção falsa 140",
+        "Opção falsa 141"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-278)x + (19321)",
+      "respostaCorreta": "Vértice: (69.5, 9660.5)",
+      "opcoes": [
+        "Opção falsa 141",
+        "Opção falsa 140",
+        "Opção falsa 142",
+        "Vértice: (69.5, 9660.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 141",
+        "Opção falsa 143",
+        "Opção falsa 142"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-285)x + (20306) = 0",
+      "respostaCorreta": "x₁ = 142, x₂ = 143",
+      "opcoes": [
+        "Opção falsa 143",
+        "Opção falsa 144",
+        "x₁ = 142, x₂ = 143",
+        "Opção falsa 142"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (145)x + (144) = 0",
+      "respostaCorreta": "Δ = 20449",
+      "opcoes": [
+        "Opção falsa 143",
+        "Opção falsa 145",
+        "Δ = 20449",
+        "Opção falsa 144"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-286)x + (20449)",
+      "respostaCorreta": "Vértice: (71.5, 10224.5)",
+      "opcoes": [
+        "Opção falsa 145",
+        "Opção falsa 146",
+        "Opção falsa 144",
+        "Vértice: (71.5, 10224.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 146",
+        "Opção falsa 145",
+        "Opção falsa 147"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-293)x + (21462) = 0",
+      "respostaCorreta": "x₁ = 146, x₂ = 147",
+      "opcoes": [
+        "Opção falsa 148",
+        "Opção falsa 146",
+        "x₁ = 146, x₂ = 147",
+        "Opção falsa 147"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (149)x + (148) = 0",
+      "respostaCorreta": "Δ = 21609",
+      "opcoes": [
+        "Opção falsa 148",
+        "Opção falsa 149",
+        "Δ = 21609",
+        "Opção falsa 147"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-294)x + (21609)",
+      "respostaCorreta": "Vértice: (73.5, 10804.5)",
+      "opcoes": [
+        "Opção falsa 148",
+        "Opção falsa 149",
+        "Vértice: (73.5, 10804.5)",
+        "Opção falsa 150"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 151",
+        "Opção falsa 149",
+        "Opção falsa 150"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-301)x + (22650) = 0",
+      "respostaCorreta": "x₁ = 150, x₂ = 151",
+      "opcoes": [
+        "x₁ = 150, x₂ = 151",
+        "Opção falsa 152",
+        "Opção falsa 151",
+        "Opção falsa 150"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (153)x + (152) = 0",
+      "respostaCorreta": "Δ = 22801",
+      "opcoes": [
+        "Opção falsa 152",
+        "Opção falsa 153",
+        "Δ = 22801",
+        "Opção falsa 151"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-302)x + (22801)",
+      "respostaCorreta": "Vértice: (75.5, 11400.5)",
+      "opcoes": [
+        "Vértice: (75.5, 11400.5)",
+        "Opção falsa 152",
+        "Opção falsa 153",
+        "Opção falsa 154"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 155",
+        "Opção falsa 153",
+        "Opção falsa 154"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-309)x + (23870) = 0",
+      "respostaCorreta": "x₁ = 154, x₂ = 155",
+      "opcoes": [
+        "Opção falsa 155",
+        "Opção falsa 156",
+        "x₁ = 154, x₂ = 155",
+        "Opção falsa 154"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (157)x + (156) = 0",
+      "respostaCorreta": "Δ = 24025",
+      "opcoes": [
+        "Opção falsa 155",
+        "Opção falsa 156",
+        "Opção falsa 157",
+        "Δ = 24025"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-310)x + (24025)",
+      "respostaCorreta": "Vértice: (77.5, 12012.5)",
+      "opcoes": [
+        "Opção falsa 156",
+        "Opção falsa 157",
+        "Opção falsa 158",
+        "Vértice: (77.5, 12012.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 157",
+        "Opção falsa 158",
+        "Opção falsa 159"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-317)x + (25122) = 0",
+      "respostaCorreta": "x₁ = 158, x₂ = 159",
+      "opcoes": [
+        "x₁ = 158, x₂ = 159",
+        "Opção falsa 160",
+        "Opção falsa 158",
+        "Opção falsa 159"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (161)x + (160) = 0",
+      "respostaCorreta": "Δ = 25281",
+      "opcoes": [
+        "Opção falsa 160",
+        "Opção falsa 161",
+        "Δ = 25281",
+        "Opção falsa 159"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-318)x + (25281)",
+      "respostaCorreta": "Vértice: (79.5, 12640.5)",
+      "opcoes": [
+        "Opção falsa 160",
+        "Vértice: (79.5, 12640.5)",
+        "Opção falsa 161",
+        "Opção falsa 162"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 163",
+        "Opção falsa 161",
+        "Opção falsa 162"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-325)x + (26406) = 0",
+      "respostaCorreta": "x₁ = 162, x₂ = 163",
+      "opcoes": [
+        "Opção falsa 164",
+        "x₁ = 162, x₂ = 163",
+        "Opção falsa 163",
+        "Opção falsa 162"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (165)x + (164) = 0",
+      "respostaCorreta": "Δ = 26569",
+      "opcoes": [
+        "Δ = 26569",
+        "Opção falsa 164",
+        "Opção falsa 163",
+        "Opção falsa 165"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-326)x + (26569)",
+      "respostaCorreta": "Vértice: (81.5, 13284.5)",
+      "opcoes": [
+        "Opção falsa 166",
+        "Opção falsa 164",
+        "Opção falsa 165",
+        "Vértice: (81.5, 13284.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 166",
+        "Opção falsa 165",
+        "Opção falsa 167"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-333)x + (27722) = 0",
+      "respostaCorreta": "x₁ = 166, x₂ = 167",
+      "opcoes": [
+        "Opção falsa 167",
+        "Opção falsa 166",
+        "Opção falsa 168",
+        "x₁ = 166, x₂ = 167"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (169)x + (168) = 0",
+      "respostaCorreta": "Δ = 27889",
+      "opcoes": [
+        "Opção falsa 167",
+        "Opção falsa 169",
+        "Opção falsa 168",
+        "Δ = 27889"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-334)x + (27889)",
+      "respostaCorreta": "Vértice: (83.5, 13944.5)",
+      "opcoes": [
+        "Vértice: (83.5, 13944.5)",
+        "Opção falsa 169",
+        "Opção falsa 168",
+        "Opção falsa 170"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 169",
+        "Opção falsa 170",
+        "Opção falsa 171"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-341)x + (29070) = 0",
+      "respostaCorreta": "x₁ = 170, x₂ = 171",
+      "opcoes": [
+        "Opção falsa 172",
+        "Opção falsa 170",
+        "x₁ = 170, x₂ = 171",
+        "Opção falsa 171"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (173)x + (172) = 0",
+      "respostaCorreta": "Δ = 29241",
+      "opcoes": [
+        "Opção falsa 173",
+        "Opção falsa 172",
+        "Opção falsa 171",
+        "Δ = 29241"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-342)x + (29241)",
+      "respostaCorreta": "Vértice: (85.5, 14620.5)",
+      "opcoes": [
+        "Opção falsa 172",
+        "Vértice: (85.5, 14620.5)",
+        "Opção falsa 174",
+        "Opção falsa 173"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 175",
+        "Opção falsa 174",
+        "Opção falsa 173"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-349)x + (30450) = 0",
+      "respostaCorreta": "x₁ = 174, x₂ = 175",
+      "opcoes": [
+        "Opção falsa 175",
+        "x₁ = 174, x₂ = 175",
+        "Opção falsa 176",
+        "Opção falsa 174"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (177)x + (176) = 0",
+      "respostaCorreta": "Δ = 30625",
+      "opcoes": [
+        "Δ = 30625",
+        "Opção falsa 175",
+        "Opção falsa 176",
+        "Opção falsa 177"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-350)x + (30625)",
+      "respostaCorreta": "Vértice: (87.5, 15312.5)",
+      "opcoes": [
+        "Vértice: (87.5, 15312.5)",
+        "Opção falsa 177",
+        "Opção falsa 176",
+        "Opção falsa 178"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 179",
+        "Opção falsa 177",
+        "Opção falsa 178"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-357)x + (31862) = 0",
+      "respostaCorreta": "x₁ = 178, x₂ = 179",
+      "opcoes": [
+        "Opção falsa 179",
+        "Opção falsa 178",
+        "x₁ = 178, x₂ = 179",
+        "Opção falsa 180"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (181)x + (180) = 0",
+      "respostaCorreta": "Δ = 32041",
+      "opcoes": [
+        "Δ = 32041",
+        "Opção falsa 181",
+        "Opção falsa 179",
+        "Opção falsa 180"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-358)x + (32041)",
+      "respostaCorreta": "Vértice: (89.5, 16020.5)",
+      "opcoes": [
+        "Opção falsa 181",
+        "Vértice: (89.5, 16020.5)",
+        "Opção falsa 180",
+        "Opção falsa 182"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 181",
+        "Opção falsa 182",
+        "Opção falsa 183"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-365)x + (33306) = 0",
+      "respostaCorreta": "x₁ = 182, x₂ = 183",
+      "opcoes": [
+        "Opção falsa 184",
+        "x₁ = 182, x₂ = 183",
+        "Opção falsa 183",
+        "Opção falsa 182"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (185)x + (184) = 0",
+      "respostaCorreta": "Δ = 33489",
+      "opcoes": [
+        "Opção falsa 184",
+        "Opção falsa 185",
+        "Opção falsa 183",
+        "Δ = 33489"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-366)x + (33489)",
+      "respostaCorreta": "Vértice: (91.5, 16744.5)",
+      "opcoes": [
+        "Opção falsa 184",
+        "Opção falsa 185",
+        "Opção falsa 186",
+        "Vértice: (91.5, 16744.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 5x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 185",
+        "Opção falsa 186",
+        "Opção falsa 187"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-373)x + (34782) = 0",
+      "respostaCorreta": "x₁ = 186, x₂ = 187",
+      "opcoes": [
+        "Opção falsa 188",
+        "x₁ = 186, x₂ = 187",
+        "Opção falsa 186",
+        "Opção falsa 187"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (189)x + (188) = 0",
+      "respostaCorreta": "Δ = 34969",
+      "opcoes": [
+        "Opção falsa 189",
+        "Opção falsa 188",
+        "Opção falsa 187",
+        "Δ = 34969"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-374)x + (34969)",
+      "respostaCorreta": "Vértice: (93.5, 17484.5)",
+      "opcoes": [
+        "Opção falsa 190",
+        "Opção falsa 189",
+        "Opção falsa 188",
+        "Vértice: (93.5, 17484.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 4x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 190",
+        "Opção falsa 189",
+        "Opção falsa 191"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-381)x + (36290) = 0",
+      "respostaCorreta": "x₁ = 190, x₂ = 191",
+      "opcoes": [
+        "Opção falsa 190",
+        "Opção falsa 192",
+        "Opção falsa 191",
+        "x₁ = 190, x₂ = 191"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (193)x + (192) = 0",
+      "respostaCorreta": "Δ = 36481",
+      "opcoes": [
+        "Opção falsa 192",
+        "Opção falsa 191",
+        "Opção falsa 193",
+        "Δ = 36481"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-382)x + (36481)",
+      "respostaCorreta": "Vértice: (95.5, 18240.5)",
+      "opcoes": [
+        "Vértice: (95.5, 18240.5)",
+        "Opção falsa 192",
+        "Opção falsa 193",
+        "Opção falsa 194"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 3x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 194",
+        "Opção falsa 195",
+        "Opção falsa 193"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-389)x + (37830) = 0",
+      "respostaCorreta": "x₁ = 194, x₂ = 195",
+      "opcoes": [
+        "Opção falsa 194",
+        "Opção falsa 195",
+        "x₁ = 194, x₂ = 195",
+        "Opção falsa 196"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (197)x + (196) = 0",
+      "respostaCorreta": "Δ = 38025",
+      "opcoes": [
+        "Opção falsa 195",
+        "Δ = 38025",
+        "Opção falsa 196",
+        "Opção falsa 197"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-390)x + (38025)",
+      "respostaCorreta": "Vértice: (97.5, 19012.5)",
+      "opcoes": [
+        "Vértice: (97.5, 19012.5)",
+        "Opção falsa 197",
+        "Opção falsa 196",
+        "Opção falsa 198"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 2x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 197",
+        "Opção falsa 199",
+        "Opção falsa 198"
+      ]
+    },
+    {
+      "enunciado": "Resolva a equação: 1x² + (-397)x + (39402) = 0",
+      "respostaCorreta": "x₁ = 198, x₂ = 199",
+      "opcoes": [
+        "Opção falsa 200",
+        "x₁ = 198, x₂ = 199",
+        "Opção falsa 199",
+        "Opção falsa 198"
+      ]
+    },
+    {
+      "enunciado": "Calcule Δ da equação: 1x² + (201)x + (200) = 0",
+      "respostaCorreta": "Δ = 39601",
+      "opcoes": [
+        "Opção falsa 200",
+        "Δ = 39601",
+        "Opção falsa 201",
+        "Opção falsa 199"
+      ]
+    },
+    {
+      "enunciado": "Encontre o vértice da função: 2x² + (-398)x + (39601)",
+      "respostaCorreta": "Vértice: (99.5, 19800.5)",
+      "opcoes": [
+        "Opção falsa 202",
+        "Opção falsa 200",
+        "Opção falsa 201",
+        "Vértice: (99.5, 19800.5)"
+      ]
+    },
+    {
+      "enunciado": "Determine a concavidade da função: 1x² + 2x + 1",
+      "respostaCorreta": "Concavidade para cima",
+      "opcoes": [
+        "Concavidade para cima",
+        "Opção falsa 203",
+        "Opção falsa 202",
+        "Opção falsa 201"
+      ]
+    }
+  ],
+  "exerciciosMat2": [
+    {
+      "pergunta": "1 + 1 =",
+      "resposta": "2"
+    },
+    {
+      "pergunta": "2 + 2 =",
+      "resposta": "4"
+    },
+    {
+      "pergunta": "3 + 3 =",
+      "resposta": "6"
+    },
+    {
+      "pergunta": "4 + 4 =",
+      "resposta": "8"
+    },
+    {
+      "pergunta": "5 + 5 =",
+      "resposta": "10"
+    },
+    {
+      "pergunta": "6 + 6 =",
+      "resposta": "12"
+    },
+    {
+      "pergunta": "7 + 7 =",
+      "resposta": "14"
+    },
+    {
+      "pergunta": "8 + 8 =",
+      "resposta": "16"
+    },
+    {
+      "pergunta": "9 + 9 =",
+      "resposta": "18"
+    },
+    {
+      "pergunta": "10 + 10 =",
+      "resposta": "20"
+    }
+  ]
+}
