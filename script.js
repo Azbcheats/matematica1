@@ -14,6 +14,7 @@ function plotQuadratic() {
 
   let xValues = [], yValues = [];
   let maxY = -Infinity, minY = Infinity;
+  let vertex = null;
 
   for (let x = -20; x <= 20; x += 0.1) {
     try {
@@ -24,13 +25,17 @@ function plotQuadratic() {
         if (y > maxY) { maxY = y; }
         if (y < minY) { minY = y; }
       }
-    } catch(e) {}
+    } catch(e) {
+      console.error(e);
+    }
   }
 
   if (!xValues.length) {
     alert("Função inválida.");
     return;
   }
+
+  vertex = calcularVertice(funcStr);
 
   const ctx = document.getElementById('functionChart').getContext('2d');
   if (chart) chart.destroy();
@@ -39,71 +44,74 @@ function plotQuadratic() {
     type: 'line',
     data: {
       labels: xValues,
-      datasets: [{ label: `y = ${funcStr}`, data: yValues, borderColor: 'red', borderWidth: 2, fill: false }]
+      datasets: [
+        { label: `y = ${funcStr}`, data: yValues, borderColor: 'red', borderWidth: 2, fill: false, pointRadius: 0 },
+        { label: 'Eixo X', data: new Array(xValues.length).fill(0), borderColor: 'black', borderDash: [5, 5], showLine: true, pointRadius: 0 },
+        { label: 'Vértice', data: [{x: vertex.x, y: vertex.y}], borderColor: 'green', pointRadius: 6, showLine: false }
+      ]
+    },
+    options: {
+      responsive: false,
+      scales: {
+        x: { title: { display: true, text: 'x' } },
+        y: { title: { display: true, text: 'y' } }
+      }
     }
   });
+
+  mostrarInfo(vertex, funcStr);
+}
+
+function calcularVertice(funcStr) {
+  let aMatch = funcStr.match(/([-+]?\d*\.?\d*)\*?x\^?2/);
+  let bMatch = funcStr.match(/([-+]?\d*\.?\d*)\*?x(?!\^)/);
+  let cMatch = funcStr.match(/([-+]?\d+)(?![^\d]*x)/);
+
+  let a = aMatch ? parseFloat(aMatch[1] || 1) : 0;
+  let b = bMatch ? parseFloat(bMatch[1] || 1) : 0;
+  let c = cMatch ? parseFloat(cMatch[1]) : 0;
+
+  let xv = -b / (2 * a);
+  let yv = a * xv * xv + b * xv + c;
+
+  return {a, b, c, x: xv, y: yv};
+}
+
+function mostrarInfo(vertex, funcStr) {
+  const infoBox = document.querySelector("#infoBox");
+
+  let concavidade = vertex.a > 0 ? "Para cima" : "Para baixo";
+  let tipoVertice = vertex.a > 0 ? "Mínimo" : "Máximo";
+  let delta = vertex.b**2 - 4*vertex.a*vertex.c;
+  let raizes = calcularRaizes(vertex.a, vertex.b, vertex.c);
+
+  infoBox.innerHTML = `
+    <h3>📊 Informações da Função</h3>
+    <p><b>Função:</b> y = ${funcStr}</p>
+    <p><b>Concavidade:</b> ${concavidade}</p>
+    <p><b>Vértice:</b> (${vertex.x.toFixed(2)}, ${vertex.y.toFixed(2)}) → ${tipoVertice}</p>
+    <p><b>Delta (Δ):</b> ${delta.toFixed(2)}</p>
+    <p><b>Raízes reais:</b> ${raizes}</p>
+  `;
+}
+
+function calcularRaizes(a, b, c) {
+  let delta = b**2 - 4*a*c;
+  if (delta < 0) return "Não existem raízes reais";
+  if (delta === 0) return `${(-b / (2*a)).toFixed(2)}`;
+  let x1 = (-b + Math.sqrt(delta)) / (2*a);
+  let x2 = (-b - Math.sqrt(delta)) / (2*a);
+  return `${x1.toFixed(2)} e ${x2.toFixed(2)}`;
 }
 
 function verificarQuiz() {
   const resposta = document.getElementById('quizResposta').value;
   const feedback = document.getElementById('quizFeedback');
-  if (resposta.trim() === "Lorenzo"){
+  if (resposta.trim() === "4") {
     feedback.textContent = "✅ Correto!";
     feedback.style.color = "lightgreen";
-    adicionarPontuacao(100);
-    atualizarProgresso(100);
   } else {
     feedback.textContent = "❌ Tente novamente!";
     feedback.style.color = "red";
   }
 }
-
-function adicionarPontuacao(valor) {
-  let pontos = parseInt(localStorage.getItem("pontos") || "0");
-  pontos += valor;
-  localStorage.setItem("pontos", pontos);
-  document.getElementById("pontuacao").textContent = pontos;
-}
-
-function atualizarProgresso() {
-  let pontos = parseInt(localStorage.getItem("pontos") || "0");
-  let progresso = Math.min(100, pontos);
-  document.getElementById("progresso").style.width = progresso + "%";
-  document.getElementById("texto-progresso").textContent = `Progresso: ${progresso}%`;
-}
-
-function salvarNotas() {
-  const notas = document.getElementById("notas").value;
-  localStorage.setItem("notas", notas);
-  alert("Notas salvas!");
-}
-
-function carregarNotas() {
-  const notas = localStorage.getItem("notas") || "";
-  document.getElementById("notas").value = notas;
-}
-
-function enviarMensagem() {
-  const msg = document.getElementById("mensagem").value;
-  if (!msg.trim()) return;
-  const chatBox = document.getElementById("chat-box");
-  const msgDiv = document.createElement("div");
-  msgDiv.textContent = "Você: " + msg;
-  chatBox.appendChild(msgDiv);
-  document.getElementById("mensagem").value = "";
-  chatBox.scrollTop = chatBox.scrollHeight;
-}
-
-function exportarPDF() {
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-  doc.text("Estudo Matemática", 10, 10);
-  doc.text("Notas:\n" + document.getElementById("notas").value, 10, 20);
-  doc.save("estudo.pdf");
-}
-
-window.onload = function() {
-  document.getElementById("pontuacao").textContent = localStorage.getItem("pontos") || "0";
-  atualizarProgresso();
-  carregarNotas();
-};
